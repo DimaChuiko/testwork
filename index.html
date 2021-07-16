@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <title>MeralDev</title>
+    <!--<meta charset="utf-8" />-->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="Description" content="main page">
+    <link type="text/css" rel="stylesheet" href="css/main.min.css" media="all">
+    <link type="text/css" rel="stylesheet" href="fonts/fonts.css" media="all">
+</head>
+
+<body>
+    <!-- wrapper -->
+    <div class="wrapper">
+        <header class="header">
+            <div class="gridContainer flex">
+                <div class="blockLogo">
+                    <a class="logoHead" href="index.html">
+                        <img src="img/MeralDev-logo.png" alt="img">
+                    </a>
+                </div>
+                <div class="blockAcount">
+                    <div class="dropdown">
+                        <div class="imgUser">
+                            <img src="img/Rectangle 31.png" alt="fotoUser">
+                        </div>
+                        <input class="dropdown-toggle" type="text">
+                        <div class="dropdown-text">
+                            <span>Hello</span><br>
+                            <span>Username</span>
+                        </div>
+                        <ul class="dropdown-content">
+                            <li><a href="#">Log in</a></li>
+                        </ul>
+                    </div>
+                </div>
+        </header>
+        <main class="mainContent">
+            <!--        Featured Creators        -->
+            <section class="FeaturedCreators">
+                <div class="gridContainer flex1">
+                    <div class="textSection">
+                        <h1>Featured <b>Creators</b></h1>
+                        <div class="blockSearch">
+                            <form class="formSearch" method="GET">
+                                <input class="noHover" type="search" name="search" placeholder="search">
+                                <input type="submit" name="submit">
+                            </form>
+                        </div>
+                    </div>
+                    <div class="slider">
+                        <div>
+                            <article class="article">
+                                <div class="textArticle">
+                                    <h2>Want to be a featured creator? </h2>
+                                    <p>Get exclusive content. Interact with Dave.</p>
+                                    <a href="" class="linkArticleCreate">
+                                        <span class="">Create Community</span>
+                                    </a>
+                                </div>
+                            </article>
+                        </div>
+                        <div>
+                            <article class="article">
+                                <div class="imageArticle">
+                                    <img src="img/1.jpg" alt="">
+                                </div>
+                                <div class="textArticle">
+                                    <h2>THE RUBIN REPORT</h2>
+                                    <p>Get exclusive content. Interact with Dave.</p>
+                                    <a href="" class="linkArticle">
+                                        <span class="join">Join community</span>
+                                        <span class="open">Open Community</span>
+                                    </a>
+                                </div>
+                            </article>
+                        </div>
+                        <div>
+                            <article class="article">
+                                <div class="imageArticle">
+                                    <img src="img/2.jpg" alt="">
+                                </div>
+                                <div class="textArticle">
+                                    <h2>NGO-GO ZONE</h2>
+                                    <p>Get exclusive content. Interact with Andy.</p>
+                                    <a href="" class="linkArticle">
+                                        <span class="join">Join community</span>
+                                        <span class="open">Open Community</span>
+                                    </a>
+                                </div>
+                            </article>
+                        </div>
+                        <div>
+                            <article class="article">
+                                <div class="imageArticle">
+                                    <img src="img/3.jpg" alt="">
+                                </div>
+                                <div class="textArticle">
+                                    <h2>Bridget Phetasy</h2>
+                                    <p>Get exclusive content. Interact with Bridget. </p>
+                                    <a href="" class="linkArticle">
+                                        <span class="join">Join community</span>
+                                        <span class="open">Open Community</span>
+                                    </a>
+                                </div>
+                            </article>
+                        </div>
+                        <div>
+                            <article class="article">
+                                <div class="imageArticle">
+                                    <img src="img/4.jpg" alt="">
+                                </div>
+                                <div class="textArticle">
+                                    <h2>Micheal Malice</h2>
+                                    <p>Get exclusive content. Interact with Micheal.</p>
+                                    <a href="" class="linkArticle">
+                                        <span class="join">Join community</span>
+                                        <span class="open">Open Community</span>
+                                    </a>
+                                </div>
+                            </article>
+                        </div>
+                        <div>
+                            <article class="article">
+                                <div class="imageArticle">
+                                    <img src="img/5.jpg" alt="">
+                                </div>
+                                <div class="textArticle">
+                                    <h2>Convention of States</h2>
+                                    <p>Get exclusive content. Interact with Mark.</p>
+                                    <a href="" class="linkArticle">
+                                        <span class="join">Join community</span>
+                                        <span class="open">Open Community</span>
+                                    </a>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- //Featured Creators -->
+            <footer class="footer">
+                <div class="gridContainer flex2">
+                    <div class="blockNav">
+                        <nav>
+                            <ul>
+                                <li><a href="">Policy & Terms</a></li>
+                                <li><a href="">TL;DR</a></li>
+                                <li><a href="">Privacy</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="textDev">
+                        <p>meraldev.com Ⓡ 2020</p>
+                    </div>
+                </div>
+            </footer>
+    </div>
+    <!-- //wrapper -->
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script type="text/javascript">
+    $('.slider').slick({
+        dots: false,
+        infinite: false,
+        speed: 300,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        centerMode: false,
+        variableWidth: true,
+        responsive: [{
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 1
+                }
+            },
+            {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                    //variableWidth: true
+                }
+            }
+            // You can unslick at a given breakpoint now by adding:
+            // settings: "unslick"
+            // instead of a settings object
+        ]
+    });
+    </script>
+    <script src="js/my.min.js"></script>
+</body>
+
+</html>
